@@ -5,9 +5,9 @@ terraform {
       version = "~> 4.49.0"
     }
   }
-  cloud {
-    workspaces {
-      name = "aws-dynamic-credentials"
-    }
-  }
+#  cloud {
+#    workspaces {
+#      name = "aws-dynamic-credentials"
+#    }
+#  }
 }
